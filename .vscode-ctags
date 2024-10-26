@@ -1,0 +1,158 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/rohit/MPLABXProjects/toy_car_code.X/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+${DISTDIR}/toy_car_code.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}	nbproject/Makefile-default.mk	/^${DISTDIR}\/toy_car_code.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject\/Makefile-$/;"	t
+${OBJECTDIR}/pwm.o	nbproject/Makefile-default.mk	/^${OBJECTDIR}\/pwm.o: pwm.c  .generated_files\/flags\/default\/a4e63ce7cd404bd7284db953cf216a630d/;"	t
+${OBJECTDIR}/pwm.o	nbproject/Makefile-default.mk	/^${OBJECTDIR}\/pwm.o: pwm.c  .generated_files\/flags\/default\/eb27fa3ccf96816ed271df18f972e259c8/;"	t
+${OBJECTDIR}/timer.o	nbproject/Makefile-default.mk	/^${OBJECTDIR}\/timer.o: timer.c  .generated_files\/flags\/default\/afe86804887e28d9a4404e2df5ce83/;"	t
+${OBJECTDIR}/timer.o	nbproject/Makefile-default.mk	/^${OBJECTDIR}\/timer.o: timer.c  .generated_files\/flags\/default\/e5f2a103e488254357e63a78639b85/;"	t
+${OBJECTDIR}/toy_car_main.o	nbproject/Makefile-default.mk	/^${OBJECTDIR}\/toy_car_main.o: toy_car_main.c  .generated_files\/flags\/default\/7fb9364a8d1792d1/;"	t
+${OBJECTDIR}/toy_car_main.o	nbproject/Makefile-default.mk	/^${OBJECTDIR}\/toy_car_main.o: toy_car_main.c  .generated_files\/flags\/default\/c86a9e60a4f5a0ae/;"	t
+${OBJECTDIR}/uart.o	nbproject/Makefile-default.mk	/^${OBJECTDIR}\/uart.o: uart.c  .generated_files\/flags\/default\/121c0d259062c32ec96f48b5fe8a3011/;"	t
+${OBJECTDIR}/uart.o	nbproject/Makefile-default.mk	/^${OBJECTDIR}\/uart.o: uart.c  .generated_files\/flags\/default\/1244192d20ea4d8348d615053748dc37/;"	t
+.all-impl	nbproject/Makefile-impl.mk	/^.all-impl: .all-pre .depcheck-impl$/;"	t
+.all-post	Makefile	/^.all-post: .all-impl$/;"	t
+.all-pre	Makefile	/^.all-pre:$/;"	t
+.build-conf	nbproject/Makefile-default.mk	/^.build-conf:  ${BUILD_SUBPROJECTS}$/;"	t
+.build-impl	nbproject/Makefile-impl.mk	/^.build-impl: .build-pre$/;"	t
+.build-post	Makefile	/^.build-post: .build-impl$/;"	t
+.build-pre	Makefile	/^.build-pre:$/;"	t
+.build-subprojects	nbproject/Makefile-default.mk	/^.build-subprojects:$/;"	t
+.clean-conf	nbproject/Makefile-default.mk	/^.clean-conf: ${CLEAN_SUBPROJECTS}$/;"	t
+.clean-impl	nbproject/Makefile-impl.mk	/^.clean-impl: .clean-pre$/;"	t
+.clean-post	Makefile	/^.clean-post: .clean-impl$/;"	t
+.clean-pre	Makefile	/^.clean-pre:$/;"	t
+.clean-subprojects	nbproject/Makefile-default.mk	/^.clean-subprojects:$/;"	t
+.clobber-impl	nbproject/Makefile-impl.mk	/^.clobber-impl: .clobber-pre .depcheck-impl$/;"	t
+.clobber-post	Makefile	/^.clobber-post: .clobber-impl$/;"	t
+.clobber-pre	Makefile	/^.clobber-pre:$/;"	t
+.dep.inc	nbproject/Makefile-default.mk	/^.dep.inc: .depcheck-impl$/;"	t
+.depcheck-impl	nbproject/Makefile-impl.mk	/^.depcheck-impl:$/;"	t
+.help-post	Makefile	/^.help-post: .help-impl$/;"	t
+.help-pre	Makefile	/^.help-pre:$/;"	t
+ALLCONFS	nbproject/Makefile-impl.mk	/^ALLCONFS=default $/;"	m
+ASFLAGS	nbproject/Makefile-default.mk	/^ASFLAGS=$/;"	m
+BAUDRATE	uart.c	/^#define BAUDRATE /;"	d	file:
+BUILD_SUBPROJECTS	nbproject/Makefile-impl.mk	/^BUILD_SUBPROJECTS=${BUILD_SUBPROJECTS_${SUBPROJECTS}}$/;"	m
+BUILD_SUBPROJECTS_	nbproject/Makefile-impl.mk	/^BUILD_SUBPROJECTS_=.build-subprojects$/;"	m
+BUILD_SUBPROJECTS_NO	nbproject/Makefile-impl.mk	/^BUILD_SUBPROJECTS_NO=$/;"	m
+CCADMIN	Makefile	/^CCADMIN=CCadmin$/;"	m
+CFLAGS	nbproject/Makefile-default.mk	/^CFLAGS=$/;"	m
+CLEAN_SUBPROJECTS	nbproject/Makefile-impl.mk	/^CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}$/;"	m
+CLEAN_SUBPROJECTS_	nbproject/Makefile-impl.mk	/^CLEAN_SUBPROJECTS_=.clean-subprojects$/;"	m
+CLEAN_SUBPROJECTS_NO	nbproject/Makefile-impl.mk	/^CLEAN_SUBPROJECTS_NO=$/;"	m
+CLK_SPEED	uart.c	/^#define CLK_SPEED /;"	d	file:
+CND_ARTIFACT_DIR_default	nbproject/Makefile-variables.mk	/^CND_ARTIFACT_DIR_default=dist\/default\/production$/;"	m
+CND_ARTIFACT_NAME_default	nbproject/Makefile-variables.mk	/^CND_ARTIFACT_NAME_default=toy_car_code.X.production.hex$/;"	m
+CND_ARTIFACT_PATH_default	nbproject/Makefile-variables.mk	/^CND_ARTIFACT_PATH_default=dist\/default\/production\/toy_car_code.X.production.hex$/;"	m
+CND_BASEDIR	nbproject/Makefile-variables.mk	/^CND_BASEDIR=`pwd`$/;"	m
+CND_CONF	nbproject/Makefile-default.mk	/^CND_CONF=default$/;"	m
+COMPARISON_BUILD	nbproject/Makefile-default.mk	/^COMPARISON_BUILD=$/;"	m
+COMPARISON_BUILD	nbproject/Makefile-default.mk	/^COMPARISON_BUILD=-mafrlcsj$/;"	m
+CONF	nbproject/Makefile-impl.mk	/^CONF=${DEFAULTCONF}$/;"	m
+COUNTER	toy_car_main.c	/^static uint8_t COUNTER = 0;$/;"	v	typeref:typename:uint8_t	file:
+CP	Makefile	/^CP=cp$/;"	m
+CP	nbproject/Makefile-default.mk	/^CP=cp $/;"	m
+D1	pwm.c	/^static int D1=0;$/;"	v	typeref:typename:int	file:
+D2	pwm.c	/^static int D2=0;$/;"	v	typeref:typename:int	file:
+DEBUGGABLE_SUFFIX	nbproject/Makefile-default.mk	/^DEBUGGABLE_SUFFIX=elf$/;"	m
+DEFAULTCONF	nbproject/Makefile-impl.mk	/^DEFAULTCONF=default$/;"	m
+DEPFILES	nbproject/Makefile-default.mk	/^DEPFILES=$(wildcard ${POSSIBLE_DEPFILES})$/;"	m
+DEP_GEN	nbproject/Makefile-local-default.mk	/^DEP_GEN=${MP_JAVA_PATH}java -jar "\/opt\/microchip\/mplabx\/v6.20\/mplab_platform\/platform\/..\//;"	m
+DFP_DIR	nbproject/Makefile-local-default.mk	/^DFP_DIR=\/opt\/microchip\/mplabx\/v6.20\/packs\/Microchip\/ATmega_DFP\/3.1.264$/;"	m
+DIRECTION	toy_car_main.c	/^static unsigned char DIRECTION='o'; \/\/forward direction 'o' (onward)$/;"	v	typeref:typename:unsigned char	file:
+DISTDIR	nbproject/Makefile-default.mk	/^DISTDIR=dist\/${CND_CONF}\/${IMAGE_TYPE}$/;"	m
+FINAL_IMAGE	nbproject/Makefile-default.mk	/^FINAL_IMAGE=${DISTDIR}\/toy_car_code.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}$/;"	m
+FIXDEPS	nbproject/Makefile-default.mk	/^FIXDEPS=fixDeps$/;"	m
+FREQUENCY	pwm.h	/^#define FREQUENCY /;"	d
+F_CPU	toy_car_main.c	/^#define F_CPU /;"	d	file:
+IMAGE_TYPE	nbproject/Makefile-default.mk	/^IMAGE_TYPE=debug$/;"	m
+IMAGE_TYPE	nbproject/Makefile-default.mk	/^IMAGE_TYPE=production$/;"	m
+ISR	toy_car_main.c	/^ISR(TIMER0_OVF_vect){$/;"	f
+ISR	toy_car_main.c	/^ISR(USART_RXC_vect){$/;"	f
+LDLIBSOPTIONS	nbproject/Makefile-default.mk	/^LDLIBSOPTIONS=$/;"	m
+MAX_SPEED	pwm.h	/^#define MAX_SPEED /;"	d
+MAX_TIMER_OVERLOAD_COUNT	toy_car_main.c	/^#define MAX_TIMER_OVERLOAD_COUNT /;"	d	file:
+MESSAGE	toy_car_main.c	/^static char MESSAGE[25] = {'\\0'};$/;"	v	typeref:typename:char[25]	file:
+MKDIR	Makefile	/^MKDIR=mkdir$/;"	m
+MKDIR	nbproject/Makefile-default.mk	/^MKDIR=mkdir -p$/;"	m
+MOTOR_1_DUTY	toy_car_main.c	/^unsigned int MOTOR_1_DUTY = 0;$/;"	v	typeref:typename:unsigned int
+MOTOR_2_DUTY	toy_car_main.c	/^unsigned int MOTOR_2_DUTY = 0;$/;"	v	typeref:typename:unsigned int
+MOTOR_CODE	toy_car_main.c	/^static unsigned char MOTOR_CODE ='x';$/;"	v	typeref:typename:unsigned char	file:
+MP_AR	nbproject/Makefile-local-default.mk	/^MP_AR="\/opt\/microchip\/xc8\/v2.46\/bin\/xc8-ar"$/;"	m
+MP_AR_DIR	nbproject/Makefile-local-default.mk	/^MP_AR_DIR="\/opt\/microchip\/xc8\/v2.46\/bin"$/;"	m
+MP_AS	nbproject/Makefile-local-default.mk	/^MP_AS="\/opt\/microchip\/xc8\/v2.46\/bin\/xc8-cc"$/;"	m
+MP_AS_DIR	nbproject/Makefile-local-default.mk	/^MP_AS_DIR="\/opt\/microchip\/xc8\/v2.46\/bin"$/;"	m
+MP_CC	nbproject/Makefile-local-default.mk	/^MP_CC="\/opt\/microchip\/xc8\/v2.46\/bin\/xc8-cc"$/;"	m
+MP_CC_DIR	nbproject/Makefile-local-default.mk	/^MP_CC_DIR="\/opt\/microchip\/xc8\/v2.46\/bin"$/;"	m
+MP_JAVA_PATH	nbproject/Makefile-local-default.mk	/^MP_JAVA_PATH="\/opt\/microchip\/mplabx\/v6.20\/sys\/java\/zulu8.64.0.19-ca-fx-jre8.0.345-linux_x/;"	m
+MP_LD	nbproject/Makefile-local-default.mk	/^MP_LD="\/opt\/microchip\/xc8\/v2.46\/bin\/xc8-cc"$/;"	m
+MP_LD_DIR	nbproject/Makefile-local-default.mk	/^MP_LD_DIR="\/opt\/microchip\/xc8\/v2.46\/bin"$/;"	m
+MP_PROCESSOR_OPTION	nbproject/Makefile-default.mk	/^MP_PROCESSOR_OPTION=ATmega8$/;"	m
+MV	nbproject/Makefile-default.mk	/^MV=mv $/;"	m
+OBJECTDIR	nbproject/Makefile-default.mk	/^OBJECTDIR=build\/${CND_CONF}\/${IMAGE_TYPE}$/;"	m
+OBJECTFILES	nbproject/Makefile-default.mk	/^OBJECTFILES=${OBJECTDIR}\/toy_car_main.o ${OBJECTDIR}\/pwm.o ${OBJECTDIR}\/timer.o ${OBJECTDIR}\//;"	m
+OBJECTFILES_QUOTED_IF_SPACED	nbproject/Makefile-default.mk	/^OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}\/toy_car_main.o ${OBJECTDIR}\/pwm.o ${OBJECTDIR}\/time/;"	m
+OBSTACLE_FLAG	toy_car_main.c	/^bool OBSTACLE_FLAG = false;$/;"	v	typeref:typename:bool
+OS_CURRENT	nbproject/Makefile-local-default.mk	/^OS_CURRENT="$(shell uname -s)"$/;"	m
+OUTPUT_SUFFIX	nbproject/Makefile-default.mk	/^OUTPUT_SUFFIX=elf$/;"	m
+OUTPUT_SUFFIX	nbproject/Makefile-default.mk	/^OUTPUT_SUFFIX=hex$/;"	m
+PATH	nbproject/Makefile-local-default.mk	/^PATH:=\/opt\/microchip\/mplabx\/v6.20\/mplab_platform\/platform\/..\/mplab_ide\/modules\/..\/..\//;"	m
+PATH_TO_IDE_BIN	nbproject/Makefile-local-default.mk	/^PATH_TO_IDE_BIN=\/opt\/microchip\/mplabx\/v6.20\/mplab_platform\/platform\/..\/mplab_ide\/module/;"	m
+POSSIBLE_DEPFILES	nbproject/Makefile-default.mk	/^POSSIBLE_DEPFILES=${OBJECTDIR}\/toy_car_main.o.d ${OBJECTDIR}\/pwm.o.d ${OBJECTDIR}\/timer.o.d $/;"	m
+PROJECTNAME	nbproject/Makefile-impl.mk	/^PROJECTNAME=toy_car_code.X$/;"	m
+PWM_H	pwm.h	/^#define	PWM_H$/;"	d
+RANLIB	Makefile	/^RANLIB=ranlib$/;"	m
+RM	nbproject/Makefile-default.mk	/^RM=rm -f $/;"	m
+SOURCEFILES	nbproject/Makefile-default.mk	/^SOURCEFILES=toy_car_main.c pwm.c timer.c uart.c$/;"	m
+SOURCEFILES_QUOTED_IF_SPACED	nbproject/Makefile-default.mk	/^SOURCEFILES_QUOTED_IF_SPACED=toy_car_main.c pwm.c timer.c uart.c$/;"	m
+SPEED_LEVEL	pwm.h	/^#define SPEED_LEVEL /;"	d
+START_SPEED	pwm.h	/^#define START_SPEED /;"	d
+SUBPROJECTS	nbproject/Makefile-impl.mk	/^SUBPROJECTS=${SUB_${SUB}}$/;"	m
+SUB_no	nbproject/Makefile-impl.mk	/^SUB_no=NO$/;"	m
+TIMER_H	timer.h	/^#define	TIMER_H$/;"	d
+UART_H	uart.h	/^#define	UART_H$/;"	d
+UBBR_VAL	uart.c	/^#define UBBR_VAL /;"	d	file:
+all	Makefile	/^all: .all-post$/;"	t
+backwardMotorPolarity	pwm.c	/^void backwardMotorPolarity(){$/;"	f	typeref:typename:void
+build	Makefile	/^build: .build-post$/;"	t
+clean	Makefile	/^clean: .clean-post$/;"	t
+clobber	Makefile	/^clobber: .clobber-post$/;"	t
+cruiseBackward	pwm.c	/^void cruiseBackward(){$/;"	f	typeref:typename:void
+cruiseForward	pwm.c	/^void cruiseForward(){$/;"	f	typeref:typename:void
+decreaseSpeed	pwm.c	/^void decreaseSpeed(){$/;"	f	typeref:typename:void
+disableTimer	timer.c	/^void disableTimer(){$/;"	f	typeref:typename:void
+enableTimer	timer.c	/^void enableTimer(){$/;"	f	typeref:typename:void
+formatMessage	uart.c	/^void formatMessage(char *s,unsigned int d1, unsigned int d3, bool flag,unsigned char d){$/;"	f	typeref:typename:void
+forwardMotorPolarity	pwm.c	/^void forwardMotorPolarity(){$/;"	f	typeref:typename:void
+getOCR1A	pwm.c	/^unsigned int getOCR1A(){$/;"	f	typeref:typename:unsigned int
+getOCR1B	pwm.c	/^unsigned int getOCR1B(){$/;"	f	typeref:typename:unsigned int
+help	Makefile	/^help: .help-post$/;"	t
+increaseSpeed	pwm.c	/^void increaseSpeed(){$/;"	f	typeref:typename:void
+init_motor_second_pins	pwm.c	/^void init_motor_second_pins(){  \/\/used to reverse the motor direction$/;"	f	typeref:typename:void
+init_pwm	pwm.c	/^void init_pwm(){$/;"	f	typeref:typename:void
+init_timer	timer.c	/^void init_timer(){$/;"	f	typeref:typename:void
+init_uart	uart.c	/^void init_uart(){$/;"	f	typeref:typename:void
+isPolarityChanged	pwm.c	/^bool isPolarityChanged(){$/;"	f	typeref:typename:bool
+main	toy_car_main.c	/^int main(void) {$/;"	f	typeref:typename:int
+send	uart.c	/^void send(unsigned char a){$/;"	f	typeref:typename:void
+sendMessage	uart.c	/^void sendMessage(char *m,unsigned char len){$/;"	f	typeref:typename:void
+sendUpdatedMessage	toy_car_main.c	/^void sendUpdatedMessage(){$/;"	f	typeref:typename:void
+setForward	pwm.c	/^void setForward(){$/;"	f	typeref:typename:void
+setInvertingMode	pwm.c	/^void setInvertingMode(){$/;"	f	typeref:typename:void
+setMaxSpeed	pwm.c	/^void setMaxSpeed(){$/;"	f	typeref:typename:void
+setNormalMode	pwm.c	/^void setNormalMode(){$/;"	f	typeref:typename:void
+setReverse	pwm.c	/^void setReverse(){$/;"	f	typeref:typename:void
+start	pwm.c	/^void start(){$/;"	f	typeref:typename:void
+stop	pwm.c	/^void stop(){$/;"	f	typeref:typename:void
+turnLeft	pwm.c	/^void turnLeft(){$/;"	f	typeref:typename:void
+turnRight	pwm.c	/^void turnRight(){$/;"	f	typeref:typename:void
+updateStatus	toy_car_main.c	/^void updateStatus(){$/;"	f	typeref:typename:void
