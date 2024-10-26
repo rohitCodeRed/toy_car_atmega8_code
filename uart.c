@@ -63,20 +63,12 @@ void sendMessage(char *m,unsigned char len){
 }
 
 
+
 /*format message through sprintf*/
-void formatMessage(char *s,unsigned int d1, unsigned int d3, bool flag,unsigned char d){
+void formatMessage(char *s,unsigned int d1, unsigned int d3,unsigned char d){
     
-    if(flag == true){
+    
         //s character mean start and e character mean end
-        sprintf(s,"s%d:%d:t:%ce",d1,d3,d);
-    }else{
-        sprintf(s,"s%d:%d:f:%ce",d1,d3,d);
-    }
-    
+        sprintf(s,"s%d:%d:%ce",d1,d3,d);
+   
 }
-
-
-
-
-
-

@@ -18,7 +18,7 @@ extern "C" {
 
     void init_uart(void);
     void send(unsigned char a);
-    void formatMessage(char *s,unsigned int d1, unsigned int d3, bool flag,unsigned char d);
+    void formatMessage(char *s,unsigned int d1, unsigned int d3,unsigned char d);
     void sendMessage(char *m,uint8_t len);
     
 
