@@ -50,7 +50,6 @@ void updateStatus(){
         
 }
 
-
 void sendUpdatedMessage(){
     formatMessage(MESSAGE,MOTOR_1_DUTY,MOTOR_2_DUTY,DIRECTION);
     sendMessage(MESSAGE,strlen(MESSAGE));
