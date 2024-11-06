@@ -25,8 +25,8 @@ unsigned int MOTOR_2_DUTY = 0;
 bool OBSTACLE_FLAG = false;
 
 static unsigned char DIRECTION='o'; //forward direction 'o' (onward)
-static char MESSAGE[25] = {'\0'};
-
+static char MESSAGE[30] = {'\0'};
+//static char m[30] = {'\0'};
 
 
 /*Update status function*/
@@ -74,6 +74,9 @@ int main(void) {
             
             sendUpdatedMessage();
             
+            //sprintf(m,"Receive at atmega8: %c\n",MOTOR_CODE);
+            //sendMessage(m,strlen(m));
+            
             enableTimer();
         
          }
@@ -120,5 +123,7 @@ ISR(USART_RXC_vect){
                 cruiseBackward();
                 break;
         }
+    
+   
     
 }

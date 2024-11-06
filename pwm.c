@@ -8,38 +8,10 @@ static int D1=0;
 static int D2=0;
 
 void init_motor_second_pins(){  //used to reverse the motor direction
-    /*set DDRD of 4 and 5 pin*/
+    /*set DDRD of 4 and 5 pin as output*/
     DDRD |= (1U<<4);
     DDRD |= (1U<<5);
     
-    
-}
-void init_pwm(){
-    /*Set PB1 and PB2 pins as output*/
-    DDRB |= (1U<<1);
-    DDRB |= (1U<<2);
-    
-    /*Init with low value for botth pin*/
-    PORTB &= ~(1U<<1);
-    PORTB &= ~(1U<<2);
-    
-    
-    /*Pre scale set to 64*/
-    TCCR1B |= (1U<<CS10);
-    TCCR1B |= (1U<<CS11);
-    TCCR1B &= ~(1U<<CS12);
-    
-    /*Set PWM phase mode with 8 bit value */
-    TCCR1B &= ~(1U<<WGM13);
-    TCCR1B &= ~(1U<<WGM12);
-    TCCR1A &= ~(1U<<WGM11);
-    TCCR1A |= (1U<<WGM10);
-    
-    /*Init output capture Counter value for both A and B channel*/
-    OCR1A = 0;
-    OCR1B = 0;
-    
-    init_motor_second_pins();
     
 }
 
@@ -108,6 +80,47 @@ unsigned int getOCR1A(){
 unsigned int getOCR1B(){
     return D2;
 }
+
+
+
+
+
+void init_pwm(){
+    /*Set PB1 and PB2 pins as output*/
+    DDRB |= (1U<<1);
+    DDRB |= (1U<<2);
+    
+    /*Init with low value for both pin*/
+    PORTB &= ~(1U<<1);
+    PORTB &= ~(1U<<2);
+    
+    init_motor_second_pins();
+    forwardMotorPolarity();
+    
+    /*Pre scale set to 64*/
+    TCCR1B |= (1U<<CS10);
+    TCCR1B |= (1U<<CS11);
+    TCCR1B &= ~(1U<<CS12);
+    
+    setNormalMode();
+    
+    /*Set PWM phase mode with 8 bit value */
+    TCCR1B &= ~(1U<<WGM13);
+    TCCR1B &= ~(1U<<WGM12);
+    TCCR1A &= ~(1U<<WGM11);
+    TCCR1A |= (1U<<WGM10);
+    
+    /*Init output capture Counter value for both A and B channel*/
+    OCR1A = 0;
+    OCR1B = 0;
+    
+    
+    
+}
+
+
+
+
 
 
 /*Stop motor function*/

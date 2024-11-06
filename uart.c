@@ -69,6 +69,7 @@ void formatMessage(char *s,unsigned int d1, unsigned int d3,unsigned char d){
     
     
         //s character mean start and e character mean end
-        sprintf(s,"s%d:%d:%ce",d1,d3,d);
+        sprintf(s,"s%d:%d:%ce\n",d1,d3,d);
+        //sprintf(s,"Send from atmega8: s%d:%d:%ce\n",d1,d3,d);
    
 }

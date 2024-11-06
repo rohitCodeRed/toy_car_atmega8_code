@@ -679,13 +679,13 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x152a
+.debug_info     0x0000000000000000     0x153d
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0x48c /opt/microchip/mplabx/v6.20/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr4/crtatmega8.o
  .debug_info    0x000000000000048c      0x547 build/default/production/toy_car_main.o
- .debug_info    0x00000000000009d3      0x5a5 build/default/production/pwm.o
- .debug_info    0x0000000000000f78      0x263 build/default/production/timer.o
- .debug_info    0x00000000000011db      0x34f build/default/production/uart.o
+ .debug_info    0x00000000000009d3      0x5b8 build/default/production/pwm.o
+ .debug_info    0x0000000000000f8b      0x263 build/default/production/timer.o
+ .debug_info    0x00000000000011ee      0x34f build/default/production/uart.o
 
 .debug_abbrev   0x0000000000000000      0x74c
  *(.debug_abbrev)
@@ -695,13 +695,13 @@ END GROUP
  .debug_abbrev  0x0000000000000646       0x5c build/default/production/timer.o
  .debug_abbrev  0x00000000000006a2       0xaa build/default/production/uart.o
 
-.debug_line     0x0000000000000000      0x97d
+.debug_line     0x0000000000000000      0x986
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000      0x10a /opt/microchip/mplabx/v6.20/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr4/crtatmega8.o
  .debug_line    0x000000000000010a      0x1b6 build/default/production/toy_car_main.o
- .debug_line    0x00000000000002c0      0x48f build/default/production/pwm.o
- .debug_line    0x000000000000074f       0xd1 build/default/production/timer.o
- .debug_line    0x0000000000000820      0x15d build/default/production/uart.o
+ .debug_line    0x00000000000002c0      0x498 build/default/production/pwm.o
+ .debug_line    0x0000000000000758       0xd1 build/default/production/timer.o
+ .debug_line    0x0000000000000829      0x15d build/default/production/uart.o
 
 .debug_frame    0x0000000000000000      0x2d8
  *(.debug_frame)
@@ -759,29 +759,29 @@ LOAD data_init
  .note.gnu.avr.deviceinfo
                 0x0000000000000000       0x3c /opt/microchip/mplabx/v6.20/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr4/crtatmega8.o
 
-.bss.MESSAGE    0x0000000000800062       0x19
- .bss.MESSAGE   0x0000000000800062       0x19 build/default/production/toy_car_main.o
+.bss.MESSAGE    0x0000000000800062       0x1e
+ .bss.MESSAGE   0x0000000000800062       0x1e build/default/production/toy_car_main.o
 
 .bss.MOTOR_2_DUTY
-                0x00000000008000a9        0x2
+                0x00000000008000af        0x2
  .bss.MOTOR_2_DUTY
-                0x00000000008000a9        0x2 build/default/production/toy_car_main.o
-                0x00000000008000a9                MOTOR_2_DUTY
+                0x00000000008000af        0x2 build/default/production/toy_car_main.o
+                0x00000000008000af                MOTOR_2_DUTY
 
 .bss.MOTOR_1_DUTY
-                0x00000000008000ab        0x2
+                0x00000000008000b1        0x2
  .bss.MOTOR_1_DUTY
-                0x00000000008000ab        0x2 build/default/production/toy_car_main.o
-                0x00000000008000ab                MOTOR_1_DUTY
+                0x00000000008000b1        0x2 build/default/production/toy_car_main.o
+                0x00000000008000b1                MOTOR_1_DUTY
 
-.bss.COUNTER    0x00000000008000b2        0x1
- .bss.COUNTER   0x00000000008000b2        0x1 build/default/production/toy_car_main.o
+.bss.COUNTER    0x00000000008000b8        0x1
+ .bss.COUNTER   0x00000000008000b8        0x1 build/default/production/toy_car_main.o
 
-.bss.D2         0x00000000008000ad        0x2
- .bss.D2        0x00000000008000ad        0x2 build/default/production/pwm.o
+.bss.D2         0x00000000008000b3        0x2
+ .bss.D2        0x00000000008000b3        0x2 build/default/production/pwm.o
 
-.bss.D1         0x00000000008000af        0x2
- .bss.D1        0x00000000008000af        0x2 build/default/production/pwm.o
+.bss.D1         0x00000000008000b5        0x2
+ .bss.D1        0x00000000008000b5        0x2 build/default/production/pwm.o
 
 .text.vfpfcnvrt
                 0x0000000000000094      0x3ce
@@ -893,274 +893,274 @@ LOAD data_init
                 0x0000000000000ef6       0x44 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/avr4/libgcc.a(_udivmodsi4.o)
                 0x0000000000000ef6                __udivmodsi4
 
-.text.__fmt_state
-                0x0000000000000f3a       0x40
- .text.__fmt_state
-                0x0000000000000f3a       0x40 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__printf_core.o)
-                0x0000000000000f3a                __fmt_state
-
-.text.init_pwm  0x0000000000000f7a       0x3e
+.text.init_pwm  0x0000000000000f3a       0x42
  .text.init_pwm
-                0x0000000000000f7a       0x3e build/default/production/pwm.o
-                0x0000000000000f7a                init_pwm
+                0x0000000000000f3a       0x42 build/default/production/pwm.o
+                0x0000000000000f3a                init_pwm
+
+.text.__fmt_state
+                0x0000000000000f7c       0x40
+ .text.__fmt_state
+                0x0000000000000f7c       0x40 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__printf_core.o)
+                0x0000000000000f7c                __fmt_state
 
 .text.sendMessage
-                0x0000000000000fb8       0x3c
+                0x0000000000000fbc       0x3c
  .text.sendMessage
-                0x0000000000000fb8       0x3c build/default/production/uart.o
-                0x0000000000000fb8                sendMessage
+                0x0000000000000fbc       0x3c build/default/production/uart.o
+                0x0000000000000fbc                sendMessage
 
 .text.libgcc.prologue
-                0x0000000000000ff4       0x38
+                0x0000000000000ff8       0x38
  .text.libgcc.prologue
-                0x0000000000000ff4       0x38 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/avr4/libgcc.a(_prologue.o)
-                0x0000000000000ff4                __prologue_saves__
+                0x0000000000000ff8       0x38 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/avr4/libgcc.a(_prologue.o)
+                0x0000000000000ff8                __prologue_saves__
 
 .text.libgcc.prologue
-                0x000000000000102c       0x36
+                0x0000000000001030       0x36
  .text.libgcc.prologue
-                0x000000000000102c       0x36 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/avr4/libgcc.a(_epilogue.o)
-                0x000000000000102c                __epilogue_restores__
+                0x0000000000001030       0x36 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/avr4/libgcc.a(_epilogue.o)
+                0x0000000000001030                __epilogue_restores__
 
 .text.sendUpdatedMessage
-                0x0000000000001062       0x34
+                0x0000000000001066       0x34
  .text.sendUpdatedMessage
-                0x0000000000001062       0x34 build/default/production/toy_car_main.o
-                0x0000000000001062                sendUpdatedMessage
+                0x0000000000001066       0x34 build/default/production/toy_car_main.o
+                0x0000000000001066                sendUpdatedMessage
 
-.text.__out     0x0000000000001096       0x34
- .text.__out    0x0000000000001096       0x34 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__printf_core.o)
-                0x0000000000001096                __out
+.text.__out     0x000000000000109a       0x34
+ .text.__out    0x000000000000109a       0x34 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__printf_core.o)
+                0x000000000000109a                __out
 
 .text.cruiseBackward
-                0x00000000000010ca       0x2c
+                0x00000000000010ce       0x2c
  .text.cruiseBackward
-                0x00000000000010ca       0x2c build/default/production/pwm.o
-                0x00000000000010ca                cruiseBackward
+                0x00000000000010ce       0x2c build/default/production/pwm.o
+                0x00000000000010ce                cruiseBackward
 
 .text.cruiseForward
-                0x00000000000010f6       0x2c
+                0x00000000000010fa       0x2c
  .text.cruiseForward
-                0x00000000000010f6       0x2c build/default/production/pwm.o
-                0x00000000000010f6                cruiseForward
+                0x00000000000010fa       0x2c build/default/production/pwm.o
+                0x00000000000010fa                cruiseForward
 
 .text.formatMessage
-                0x0000000000001122       0x2c
+                0x0000000000001126       0x2c
  .text.formatMessage
-                0x0000000000001122       0x2c build/default/production/uart.o
-                0x0000000000001122                formatMessage
+                0x0000000000001126       0x2c build/default/production/uart.o
+                0x0000000000001126                formatMessage
 
 .text.__vfprintf
-                0x000000000000114e       0x2a
+                0x0000000000001152       0x2a
  .text.__vfprintf
-                0x000000000000114e       0x2a /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__int_vfprintf.o)
-                0x000000000000114e                __vfprintf
+                0x0000000000001152       0x2a /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__int_vfprintf.o)
+                0x0000000000001152                __vfprintf
 
 .text.__vector_9
-                0x0000000000001178       0x24
+                0x000000000000117c       0x24
  .text.__vector_9
-                0x0000000000001178       0x24 build/default/production/toy_car_main.o
-                0x0000000000001178                __vector_9
+                0x000000000000117c       0x24 build/default/production/toy_car_main.o
+                0x000000000000117c                __vector_9
 
-.text.main      0x000000000000119c       0x1e
- .text.main     0x000000000000119c       0x1e build/default/production/toy_car_main.o
-                0x000000000000119c                main
+.text.main      0x00000000000011a0       0x1e
+ .text.main     0x00000000000011a0       0x1e build/default/production/toy_car_main.o
+                0x00000000000011a0                main
 
-.text.start     0x00000000000011ba       0x1e
- .text.start    0x00000000000011ba       0x1e build/default/production/pwm.o
-                0x00000000000011ba                start
+.text.start     0x00000000000011be       0x1e
+ .text.start    0x00000000000011be       0x1e build/default/production/pwm.o
+                0x00000000000011be                start
 
 .text.setMaxSpeed
-                0x00000000000011d8       0x1e
+                0x00000000000011dc       0x1e
  .text.setMaxSpeed
-                0x00000000000011d8       0x1e build/default/production/pwm.o
-                0x00000000000011d8                setMaxSpeed
+                0x00000000000011dc       0x1e build/default/production/pwm.o
+                0x00000000000011dc                setMaxSpeed
 
 .text.init_uart
-                0x00000000000011f6       0x1e
+                0x00000000000011fa       0x1e
  .text.init_uart
-                0x00000000000011f6       0x1e build/default/production/uart.o
-                0x00000000000011f6                init_uart
+                0x00000000000011fa       0x1e build/default/production/uart.o
+                0x00000000000011fa                init_uart
 
 .text.__wrap_sprintf
-                0x0000000000001214       0x1e
+                0x0000000000001218       0x1e
  .text.__wrap_sprintf
-                0x0000000000001214       0x1e /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__sio_sprintf_doux.o)
-                0x0000000000001214                _sprintf_cdopuxX
+                0x0000000000001218       0x1e /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__sio_sprintf_doux.o)
+                0x0000000000001218                _sprintf_cdopuxX
 
-.text.stop      0x0000000000001232       0x1c
- .text.stop     0x0000000000001232       0x1c build/default/production/pwm.o
-                0x0000000000001232                stop
+.text.stop      0x0000000000001236       0x1c
+ .text.stop     0x0000000000001236       0x1c build/default/production/pwm.o
+                0x0000000000001236                stop
 
 .text.init_timer
-                0x000000000000124e       0x1c
+                0x0000000000001252       0x1c
  .text.init_timer
-                0x000000000000124e       0x1c build/default/production/timer.o
-                0x000000000000124e                init_timer
+                0x0000000000001252       0x1c build/default/production/timer.o
+                0x0000000000001252                init_timer
 
-.text.strlen    0x000000000000126a       0x1c
- .text.strlen   0x000000000000126a       0x1c /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(strlen.o)
-                0x000000000000126a                strlen
+.text.strlen    0x000000000000126e       0x1c
+ .text.strlen   0x000000000000126e       0x1c /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(strlen.o)
+                0x000000000000126e                strlen
 
 .text.setInvertingMode
-                0x0000000000001286       0x1a
+                0x000000000000128a       0x1a
  .text.setInvertingMode
-                0x0000000000001286       0x1a build/default/production/pwm.o
-                0x0000000000001286                setInvertingMode
+                0x000000000000128a       0x1a build/default/production/pwm.o
+                0x000000000000128a                setInvertingMode
 
 .text.setNormalMode
-                0x00000000000012a0       0x1a
+                0x00000000000012a4       0x1a
  .text.setNormalMode
-                0x00000000000012a0       0x1a build/default/production/pwm.o
-                0x00000000000012a0                setNormalMode
+                0x00000000000012a4       0x1a build/default/production/pwm.o
+                0x00000000000012a4                setNormalMode
 
 .text.libgcc.mul
-                0x00000000000012ba       0x18
+                0x00000000000012be       0x18
  .text.libgcc.mul
-                0x00000000000012ba       0x18 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/avr4/libgcc.a(_umulhisi3.o)
-                0x00000000000012ba                __umulhisi3
+                0x00000000000012be       0x18 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/avr4/libgcc.a(_umulhisi3.o)
+                0x00000000000012be                __umulhisi3
 
 .text.disableTimer
-                0x00000000000012d2       0x14
+                0x00000000000012d6       0x14
  .text.disableTimer
-                0x00000000000012d2       0x14 build/default/production/timer.o
-                0x00000000000012d2                disableTimer
+                0x00000000000012d6       0x14 build/default/production/timer.o
+                0x00000000000012d6                disableTimer
 
 .text.enableTimer
-                0x00000000000012e6       0x14
+                0x00000000000012ea       0x14
  .text.enableTimer
-                0x00000000000012e6       0x14 build/default/production/timer.o
-                0x00000000000012e6                enableTimer
+                0x00000000000012ea       0x14 build/default/production/timer.o
+                0x00000000000012ea                enableTimer
 
 .text.isPolarityChanged
-                0x00000000000012fa       0x12
+                0x00000000000012fe       0x12
  .text.isPolarityChanged
-                0x00000000000012fa       0x12 build/default/production/pwm.o
-                0x00000000000012fa                isPolarityChanged
+                0x00000000000012fe       0x12 build/default/production/pwm.o
+                0x00000000000012fe                isPolarityChanged
 
-.text.toupper   0x000000000000130c       0x12
- .text.toupper  0x000000000000130c       0x12 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(toupper.o)
-                0x000000000000130c                toupper
+.text.toupper   0x0000000000001310       0x12
+ .text.toupper  0x0000000000001310       0x12 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(toupper.o)
+                0x0000000000001310                toupper
 
-.text.tolower   0x000000000000131e       0x10
- .text.tolower  0x000000000000131e       0x10 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(tolower.o)
-                0x000000000000131e                tolower
+.text.tolower   0x0000000000001322       0x10
+ .text.tolower  0x0000000000001322       0x10 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(tolower.o)
+                0x0000000000001322                tolower
 
-.text.exit      0x000000000000132e        0xe
- .text.exit     0x000000000000132e        0xe /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(exit.o)
-                0x000000000000132e                exit
+.text.exit      0x0000000000001332        0xe
+ .text.exit     0x0000000000001332        0xe /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(exit.o)
+                0x0000000000001332                exit
 
 .text.__vsprintf
-                0x000000000000133c        0xc
+                0x0000000000001340        0xc
  .text.__vsprintf
-                0x000000000000133c        0xc /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__int_vsprintf.o)
-                0x000000000000133c                __vsprintf
+                0x0000000000001340        0xc /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__int_vsprintf.o)
+                0x0000000000001340                __vsprintf
 
-.text.getOCR1A  0x0000000000001348        0xa
+.text.getOCR1A  0x000000000000134c        0xa
  .text.getOCR1A
-                0x0000000000001348        0xa build/default/production/pwm.o
-                0x0000000000001348                getOCR1A
+                0x000000000000134c        0xa build/default/production/pwm.o
+                0x000000000000134c                getOCR1A
 
-.text.getOCR1B  0x0000000000001352        0xa
+.text.getOCR1B  0x0000000000001356        0xa
  .text.getOCR1B
-                0x0000000000001352        0xa build/default/production/pwm.o
-                0x0000000000001352                getOCR1B
+                0x0000000000001356        0xa build/default/production/pwm.o
+                0x0000000000001356                getOCR1B
 
-.text.send      0x000000000000135c        0x8
- .text.send     0x000000000000135c        0x8 build/default/production/uart.o
-                0x000000000000135c                send
+.text.send      0x0000000000001360        0x8
+ .text.send     0x0000000000001360        0x8 build/default/production/uart.o
+                0x0000000000001360                send
 
 .text.init_motor_second_pins
-                0x0000000000001364        0x6
+                0x0000000000001368        0x6
  .text.init_motor_second_pins
-                0x0000000000001364        0x6 build/default/production/pwm.o
-                0x0000000000001364                init_motor_second_pins
+                0x0000000000001368        0x6 build/default/production/pwm.o
+                0x0000000000001368                init_motor_second_pins
 
 .text.backwardMotorPolarity
-                0x000000000000136a        0x6
+                0x000000000000136e        0x6
  .text.backwardMotorPolarity
-                0x000000000000136a        0x6 build/default/production/pwm.o
-                0x000000000000136a                backwardMotorPolarity
+                0x000000000000136e        0x6 build/default/production/pwm.o
+                0x000000000000136e                backwardMotorPolarity
 
 .text.forwardMotorPolarity
-                0x0000000000001370        0x6
+                0x0000000000001374        0x6
  .text.forwardMotorPolarity
-                0x0000000000001370        0x6 build/default/production/pwm.o
-                0x0000000000001370                forwardMotorPolarity
+                0x0000000000001374        0x6 build/default/production/pwm.o
+                0x0000000000001374                forwardMotorPolarity
 
 .text.setReverse
-                0x0000000000001376        0x6
+                0x000000000000137a        0x6
  .text.setReverse
-                0x0000000000001376        0x6 build/default/production/pwm.o
-                0x0000000000001376                setReverse
+                0x000000000000137a        0x6 build/default/production/pwm.o
+                0x000000000000137a                setReverse
 
 .text.setForward
-                0x000000000000137c        0x6
+                0x0000000000001380        0x6
  .text.setForward
-                0x000000000000137c        0x6 build/default/production/pwm.o
-                0x000000000000137c                setForward
+                0x0000000000001380        0x6 build/default/production/pwm.o
+                0x0000000000001380                setForward
 
-.text           0x0000000000001382        0x2
- .text          0x0000000000001382        0x2 /opt/microchip/mplabx/v6.20/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr4/crtatmega8.o
-                0x0000000000001382                __vector_1
-                0x0000000000001382                __vector_12
-                0x0000000000001382                __bad_interrupt
-                0x0000000000001382                __vector_6
-                0x0000000000001382                __vector_3
-                0x0000000000001382                __vector_13
-                0x0000000000001382                __vector_17
-                0x0000000000001382                __vector_7
-                0x0000000000001382                __vector_5
-                0x0000000000001382                __vector_4
-                0x0000000000001382                __vector_2
-                0x0000000000001382                __vector_15
-                0x0000000000001382                __vector_8
-                0x0000000000001382                __vector_14
-                0x0000000000001382                __vector_10
-                0x0000000000001382                __vector_16
-                0x0000000000001382                __vector_18
+.text           0x0000000000001386        0x2
+ .text          0x0000000000001386        0x2 /opt/microchip/mplabx/v6.20/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr4/crtatmega8.o
+                0x0000000000001386                __vector_1
+                0x0000000000001386                __vector_12
+                0x0000000000001386                __bad_interrupt
+                0x0000000000001386                __vector_6
+                0x0000000000001386                __vector_3
+                0x0000000000001386                __vector_13
+                0x0000000000001386                __vector_17
+                0x0000000000001386                __vector_7
+                0x0000000000001386                __vector_5
+                0x0000000000001386                __vector_4
+                0x0000000000001386                __vector_2
+                0x0000000000001386                __vector_15
+                0x0000000000001386                __vector_8
+                0x0000000000001386                __vector_14
+                0x0000000000001386                __vector_10
+                0x0000000000001386                __vector_16
+                0x0000000000001386                __vector_18
 
 .text.__dummy_fini
-                0x0000000000001384        0x2
+                0x0000000000001388        0x2
  .text.__dummy_fini
-                0x0000000000001384        0x2 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(exit.o)
-                0x0000000000001384                _fini
+                0x0000000000001388        0x2 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(exit.o)
+                0x0000000000001388                _fini
 
 .text.__dummy_funcs_on_exit
-                0x0000000000001386        0x2
+                0x000000000000138a        0x2
  .text.__dummy_funcs_on_exit
-                0x0000000000001386        0x2 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(exit.o)
-                0x0000000000001386                __funcs_on_exit
+                0x000000000000138a        0x2 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(exit.o)
+                0x000000000000138a                __funcs_on_exit
 
 .text.__dummy_simulator_exit
-                0x0000000000001388        0x2
+                0x000000000000138c        0x2
  .text.__dummy_simulator_exit
-                0x0000000000001388        0x2 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(exit.o)
-                0x0000000000001388                __simulator_exit
+                0x000000000000138c        0x2 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(exit.o)
+                0x000000000000138c                __simulator_exit
 
-.text._Exit     0x000000000000138a        0x2
- .text._Exit    0x000000000000138a        0x2 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(_Exit.o)
-                0x000000000000138a                _Exit
+.text._Exit     0x000000000000138e        0x2
+ .text._Exit    0x000000000000138e        0x2 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(_Exit.o)
+                0x000000000000138e                _Exit
 
 .rodata.state_table
-                0x000000000080007b       0x16 load address 0x000000000000138c
+                0x0000000000800080       0x16 load address 0x0000000000001390
  .rodata.state_table
-                0x000000000080007b       0x16 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__printf_core.o)
+                0x0000000000800080       0x16 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__printf_core.o)
 
-.rodata         0x0000000000800091        0xb load address 0x00000000000013a2
- .rodata        0x0000000000800091        0xb build/default/production/uart.o
+.rodata         0x0000000000800096        0xc load address 0x00000000000013a6
+ .rodata        0x0000000000800096        0xc build/default/production/uart.o
 
 .rodata.nuls.2781
-                0x000000000080009c        0x7 load address 0x00000000000013ad
+                0x00000000008000a2        0x7 load address 0x00000000000013b2
  .rodata.nuls.2781
-                0x000000000080009c        0x7 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__fmt_s.o)
+                0x00000000008000a2        0x7 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__fmt_s.o)
 
 .rodata.nilstr.2962
-                0x00000000008000a3        0x6 load address 0x00000000000013b4
+                0x00000000008000a9        0x6 load address 0x00000000000013b9
  .rodata.nilstr.2962
-                0x00000000008000a3        0x6 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__printf_core.o)
+                0x00000000008000a9        0x6 /opt/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr4/libc.a(__printf_core.o)
 
 .data.DIRECTION
-                0x00000000008000b1        0x1 load address 0x00000000000013ba
+                0x00000000008000b7        0x1 load address 0x00000000000013bf
  .data.DIRECTION
-                0x00000000008000b1        0x1 build/default/production/toy_car_main.o
+                0x00000000008000b7        0x1 build/default/production/toy_car_main.o
